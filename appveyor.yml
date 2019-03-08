@@ -3,7 +3,7 @@ image: Visual Studio 2017
 build_script:
 - mkdir release
 - cd release
-- .\..\release-script\releasewin64.ps1
+- ps: .\..\release-script\releasewin64.ps1
 - 7z a QUsb2Snes-all-%APPVEYOR_REPO_TAG_NAME%.7z QUsb2Snes
 
 
