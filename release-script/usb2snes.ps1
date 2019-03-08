@@ -1,4 +1,4 @@
-. ./common.ps1
+. ./../release-script/common.ps1
 
 [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
 Invoke-WebRequest -Uri  "https://github.com/RedGuyyyy/sd2snes/releases/download/usb2snes_v9/usb2snes_v9.zip" -OutFile "usb2snes.zip"

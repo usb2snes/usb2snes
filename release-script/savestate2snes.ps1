@@ -1,4 +1,4 @@
-. ./common.ps1
+. ./../release-script/common.ps1
 
 $github_base_url = "https://github.com/Skarsnik/Savestate2Snes/releases/download/"
 $release = "0.5.4"
