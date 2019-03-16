@@ -11,4 +11,7 @@ cd .\QUsb2Snes\
 iex @'
 & "$7z" x ..\Magic2Snes.7z
 '@
+
 cd ..\
+# Need to remove this on next magic2snes release I guess
+del QUsb2Snes\Magic2Snes\vc_redist.x64.exe
