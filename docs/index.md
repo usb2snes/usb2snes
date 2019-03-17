@@ -40,7 +40,7 @@ For example Snes9x
 
 # Supported platforms
 
-Intermidiate software
+Intermediate software
 * [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases) (Windows)
 * [QUsb2Snes](https://skarsnik.github.io/QUsb2snes/) (Windows, MacOS, Linux)
 
@@ -60,6 +60,10 @@ Multitroid is a mod for Super Metroid that allows multiple players to complete t
 
 See [Multitroid.com](http://www.multitroid.com/) for more information	
 
+## Savestate2snes
+[Savestate2snes](https://skarsnik.github.io/Savestate2snes/) is a tool that let you create and manage savestates on your SNES console with a SD2SNES.
+It also support ‘hacked’ SNES classic with hakchi2 CE  
+
 ## Fileviewer
 Included with [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases)
 
@@ -71,5 +75,5 @@ Included with [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases)
 This application allow you to have a look at various memory of your SNES and overwrite value if you want.
 
 ## InputViewer
-
-This is patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press. It has some limitation like not showing input during screen transition and such.
+Included with [QUsb2Snes](https://skarsnik.github.io/QUsb2snes/) is a patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press.
+It has some limitation like not showing input during screen transition and such.
