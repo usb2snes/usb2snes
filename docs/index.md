@@ -3,7 +3,7 @@ layout: default
 title: USB2SNES
 ---
 
-USB2SNES is way to communicate with the SNES.
+USB2SNES is way to communicate with the SNES or devices (including some emulators) that act like a SNES
 
 # Contents
 {:.no_toc}
@@ -11,7 +11,7 @@ USB2SNES is way to communicate with the SNES.
 * TOC
 {:toc}
 
-# Origin
+# Origins
 
 ## USB2SNES firmware
 
@@ -53,6 +53,30 @@ SD2SNES with the [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases) firmw
 SNES Classic modded with [Hakchi2 CE](https://github.com/TeamShinkansen/hakchi2/releases)|❌|✔
 RetroArch support with Snes9x and bsnes-mercury cores|❌|✔
 
+# Getting started
+
+## Downloads
+
+### Windows
+
+You can download a bundle on [usb2snes github releases page](https://github.com/usb2snes/usb2snes/releases/latest). This include the latest QUsb2Snes, the latest USB2SNES firmware and a bunch of applications to have something ready to use.
+
+### Mac os X
+
+For Mac os X users you will need to grab a QUsb2Snes dmg on [QUsb2Snes releases page](https://github.com/Skarsnik/QUsb2snes/releases), sadly other applications does not have a Mac os X release yet.
+
+### Linux
+
+You will need to compile yourself see [QUsb2Snes Linux Readme](https://github.com/Skarsnik/QUsb2snes/blob/master/LinuxREADME.md)
+
+## Installation
+
+Download the file corresponding to your operating system, then follow the instructions on the Readme or on [QUsb2Snes usage](https://skarsnik.github.io/QUsb2snes/#usage)
+
+## Tutorials
+
+Coming soon (tm)
+
 # Applications
 
 ## Multitroid
@@ -75,5 +99,6 @@ Included with [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases)
 This application allow you to have a look at various memory of your SNES and overwrite value if you want.
 
 ## InputViewer
-Included with [QUsb2Snes](https://skarsnik.github.io/QUsb2snes/) is a patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press.
-It has some limitation like not showing input during screen transition and such.
+Included with the bundle, it's a patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press.
+It has some limitations like not showing input during screen transition and such.
+
