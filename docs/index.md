@@ -51,6 +51,7 @@ Platform | [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases) | [QUsb2Sne
 SD2SNES with the [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases) firmware|✔|✔
 [Snes9x Multitroid](https://drive.google.com/open?id=1_ej-pwWtCAHYXIrvs5Hro16A1s9Hi3Jz) with Lua support|❌|✔
 SNES Classic modded with [Hakchi2 CE](https://github.com/TeamShinkansen/hakchi2/releases)|❌|✔
+[Bizhawk 2.3.1](https://github.com/TASVideos/BizHawk/releases)|❌|✔
 RetroArch support with Snes9x and bsnes-mercury cores|❌|✔
 
 # Getting started
@@ -77,6 +78,10 @@ Download the file corresponding to your operating system, then follow the instru
 
 Coming soon (tm)
 
+## Getting help
+
+The best way to get help is to join the "multitroid" discord at [The Slicers](https://discord.gg/yQmPm46) and contact ask your question.
+
 # Applications
 
 ## Multitroid
@@ -88,7 +93,11 @@ See [Multitroid.com](http://www.multitroid.com/) for more information
 [Savestate2snes](https://skarsnik.github.io/Savestate2snes/) is a tool that let you create and manage savestates on your SNES console with a SD2SNES.
 It also support ‘hacked’ SNES classic with hakchi2 CE  
 
-## Fileviewer
+## QFile2Snes
+
+Provided with [QUsb2Snes](https://skarsnik.github.io/QUsb2snes/), QFile2Snes is a software to mainly access your files on your SD2SNES, It's a more 'modern' replacement for the Fileviewer provided with the original `USB2SNES`. It support Drag and Drop for example.
+
+## Fileviewer (legacy)
 Included with [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases)
 
 This application allows you access your SD2SNES files and perform some special operation, like starting a game, applying a patch.
