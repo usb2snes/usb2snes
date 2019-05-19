@@ -78,7 +78,7 @@ Download the file corresponding to your operating system, then follow the instru
 
 Coming soon (tm)
 
-## Getting help
+# Getting help
 
 The best way to get help is to join the "multitroid" discord at [The Slicers](https://discord.gg/yQmPm46) and contact ask your question.
 
@@ -111,3 +111,8 @@ This application allow you to have a look at various memory of your SNES and ove
 Included with the bundle, it's a patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press.
 It has some limitations like not showing input during screen transition and such.
 
+# Developpers
+
+If you don't plan on doing a complex application, you can look at the [Magic2Snes](https://github.com/Skarsnik/Magic2snes/wiki) project. It's a project written toward making small application easier by hiding all the Usb2Snes specific behind simple call like `memory.readByte()`
+
+If you want more details about the Usb2Snes websocket protocol you need too look at the [Protocol](https://github.com/Skarsnik/QUsb2snes/blob/master/docs/Procotol.md) page of the QUsb2Snes project.
