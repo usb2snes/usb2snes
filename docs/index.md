@@ -82,6 +82,8 @@ Coming soon (tm)
 
 The best way to get help is to join the "multitroid" discord at [The Slicers](https://discord.gg/yQmPm46) and contact ask your question.
 
+There is also a [connection tester page](tester/index.html) that can help with verifying that QUsb2snes is accessable and can find devices.
+
 # Applications
 
 ## Multitroid
