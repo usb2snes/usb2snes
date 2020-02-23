@@ -70,10 +70,12 @@ function create_network(react) {
             }
 
             try {
-                device_list.forEach(async (name, i) => {
+                let i = -1;
+                for (const name of device_list) {
+                    i += 1;
                     device.list[i].info = JSON.stringify(await deviceInfo(name));
                     updateState();
-                });
+                }
             } catch (error) {
                 react.log(`Could not attach to device: ${error}`);
                 /* Set to 1 to signal a reconnect to socket_onclose */
