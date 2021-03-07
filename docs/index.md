@@ -80,7 +80,7 @@ Coming soon (tm)
 
 # Getting help
 
-The best way to get help is to join the "multitroid" discord at [The Slicers](https://discord.gg/yQmPm46) and contact ask your question.
+The best way to get help is to join the Usb2snes discord at [Usb2Snes](https://discord.gg/2JgefTX) and contact ask your question.
 
 # Applications
 

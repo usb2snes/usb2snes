@@ -1,7 +1,7 @@
 . ./../release-script/common.ps1
 
 $github_base_url = "https://github.com/Skarsnik/Savestate2Snes/releases/download/"
-$release = "0.5.6.2"
+$release = "0.8.1"
 $url = "$github_base_url/v$release/Savestate2snes-v$release.7z"
 
 [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
