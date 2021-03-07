@@ -82,6 +82,8 @@ Coming soon (tm)
 
 The best way to get help is to join the Usb2snes discord at [Usb2Snes](https://discord.gg/2JgefTX) and contact ask your question.
 
+There is also a [connection tester page](tester/index.html) that can help with verifying that QUsb2snes is accessable and can find devices.
+
 # Applications
 
 ## Multitroid
@@ -111,7 +113,7 @@ This application allow you to have a look at various memory of your SNES and ove
 Included with the bundle, it's a patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press.
 It has some limitations like not showing input during screen transition and such.
 
-# Developpers
+# Developers
 
 If you don't plan on doing a complex application, you can look at the [Magic2Snes](https://github.com/Skarsnik/Magic2snes/wiki) project. It's a project written toward making small application easier by hiding all the Usb2Snes specific behind simple call like `memory.readByte()`
 
