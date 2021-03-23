@@ -76,7 +76,7 @@ Download the file corresponding to your operating system, then follow the instru
 
 ## Tutorials
 
-Coming soon (tm)
+You can visit [the tutorials page](Tutorials.md)  to found various tutorials showing you how to use QUsb2snes or software using usb2snes technology.
 
 # Getting help
 
