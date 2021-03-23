@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "SaveState2Snes",
+        "author" : "Skarsnik",
+        "short-description" : "A software to handle your savestates on Sd2snes/Fxpak (pro) and Snes Classic",
+        "description" : "A software that use the Usb2Snes firmware to allow you to save, load and organize savestates for your SNES games. Also support the SNES Classic with a special mod for Hakchi2 CE",
+        "website" : "https://skarsnik.github.io/Savestate2snes/",
+        "screenshot" : "https://skarsnik.github.io/Savestate2snes/webimage/main.png",
+        "icon" : "Piko.png",
+        "online" : false ,
+        "github-release" : true,
+        "respository" : "https://github.com/Skarsnik/Savestate2snes"
+    },
+    {
+       "name"  : "Multitroid",
+       "author" : "OsteHovel",
+       "short-description" : "A way to play Super Metroid with shared inventory/ammunition/heal point accross multiple players",
+       "description" : "A way to play Super Metroid with shared inventory/ammunition/heal point accross multiple players",
+       "website" :  "http://www.multitroid.com",
+       "screenshot" :  "todo.png",
+       "icon" : "url to icon",
+       "online" :  "true",
+       "github-release" : false,
+       "repository" : "none"
+    }
+]
