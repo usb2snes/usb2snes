@@ -22,5 +22,17 @@
        "online" :  "true",
        "github-release" : false,
        "repository" : "none"
+    },
+    {
+        "name" : "PopTracker",
+        "author" : "black-sliver",
+        "short-description" : "Scriptable auto map-tracker, compatible to existing packs",
+        "description" : "Powerful open progress tracker is a project to offer a universal, scriptable randomizer tracking solution that it is open source, runs everywhere and supports auto-tracking",
+        "website" : "https://github.com/black-sliver/PopTracker",
+        "screenshot" : "https://raw.githubusercontent.com/black-sliver/PopTracker/screenshots/screenshot.png",
+        "icon" : "",
+        "online" : false ,
+        "github-release" : true,
+        "respository" : "https://github.com/black-sliver/PopTracker"
     }
 ]
