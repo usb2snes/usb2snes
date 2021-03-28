@@ -9,7 +9,7 @@
         "icon" : "Piko.png",
         "online" : false ,
         "github-release" : true,
-        "respository" : "https://github.com/Skarsnik/Savestate2snes"
+        "repository" : "https://github.com/Skarsnik/Savestate2snes"
     },
     {
        "name"  : "Multitroid",
@@ -33,6 +33,6 @@
         "icon" : "",
         "online" : false ,
         "github-release" : true,
-        "respository" : "https://github.com/black-sliver/PopTracker"
+        "repository" : "https://github.com/black-sliver/PopTracker"
     }
 ]
