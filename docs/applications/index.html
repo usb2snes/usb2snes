@@ -21,24 +21,31 @@
 		data-url="list-apps.json">
 		<thead>
 			<tr>
-				<th data-field="name">Name</th>
+				<th data-field="name" data-formatter="titelAndIconFormatter">Name</th>
 				<th data-field="author">Author</th>
 				<th data-field="short-description">Short description</th>
 				<th data-field="description">Description</th>
 				<th data-field="website" data-formatter="websiteFormatter">Website</th>
 				<th data-field="screenshot" data-formatter="screenshotFormatter">Screenshot</th>
-				<th data-field="icon" data-formatter="iconFormatter">Icon</th>
 				<th data-field="online" data-formatter="isOnFormatter">Online</th>
-				<th data-field="github-release" data-formatter="isOnFormatter">Github release</th>
 				<th data-field="repository" data-formatter="repositoryFormatter">Repository</th>
 			</tr>
 		</thead>
 	</table>
 </div>
 <script>
+	function titelAndIconFormatter(value, row, index){
+		if(row.icon){
+			if(linkTester(row.icon)){
+				return '<img src="' + row.icon + '" width="40"> ' + value;
+			}else{
+				return value;
+			}
+		}
+	}
 	function websiteFormatter(value){
 		if(value){
-			return '<a href="' + value + '" target="_blank">Website</a>';
+			return '<a href="' + value + '" target="_blank">' + value + '</a>';
 		}
 	}
 
@@ -49,15 +56,6 @@
 			}
 		}
 	}
-
-	function iconFormatter(value){
-		if(value){
-			if(linkTester(value)){
-				return '<img src="' + value + '" width="20">';
-			}
-		}
-	}
-
 	function isOnFormatter(value){
 		if(value){
 			return 'Yes';

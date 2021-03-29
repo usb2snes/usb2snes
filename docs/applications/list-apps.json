@@ -6,7 +6,7 @@
         "description" : "A software that use the Usb2Snes firmware to allow you to save, load and organize savestates for your SNES games. Also support the SNES Classic with a special mod for Hakchi2 CE",
         "website" : "https://skarsnik.github.io/Savestate2snes/",
         "screenshot" : "https://skarsnik.github.io/Savestate2snes/webimage/main.png",
-        "icon" : "Piko.png",
+        "icon" : "https://raw.githubusercontent.com/Skarsnik/Savestate2snes/master/Icon126x126.png",
         "online" : false ,
         "github-release" : true,
         "repository" : "https://github.com/Skarsnik/Savestate2snes"
