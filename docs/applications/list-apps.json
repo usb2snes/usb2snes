@@ -14,8 +14,8 @@
     {
        "name"  : "Multitroid",
        "author" : "OsteHovel",
-       "short-description" : "A way to play Super Metroid with shared inventory/ammunition/heal point accross multiple players",
-       "description" : "A way to play Super Metroid with shared inventory/ammunition/heal point accross multiple players",
+       "short-description" : "Play Super Metroid co-op with all your friends",
+       "description" : "Play Super Metroid co-op across internet and share energy, ammo, equipment, map tiles and events (such as bosses and flags)",
        "website" :  "http://www.multitroid.com",
        "screenshot" :  "todo.png",
        "icon" : "url to icon",
