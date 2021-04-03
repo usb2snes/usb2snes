@@ -1,0 +1,124 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1617467807.json", 
+	"title": "Root", 
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items", 
+		"title": "Items", 
+		"type": "object",
+		"required": [
+			"name",
+			"author",
+			"short-description",
+			"description",
+			"website",
+			"screenshot",
+			"icon",
+			"online"
+		],
+		"properties": {
+			"name": {
+				"$id": "#root/items/name", 
+				"title": "Name", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"SaveState2Snes"
+				],
+				"pattern": "^.*$"
+			},
+			"author": {
+				"$id": "#root/items/author", 
+				"title": "Author", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Skarsnik"
+				],
+				"pattern": "^.*$"
+			},
+			"short-description": {
+				"$id": "#root/items/short-description", 
+				"title": "Short-description", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"A software to handle your savestates on Sd2snes/Fxpak (pro) and Snes Classic"
+				],
+				"pattern": "^.*$"
+			},
+			"description": {
+				"$id": "#root/items/description", 
+				"title": "Description", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"A software that use the Usb2Snes firmware to allow you to save, load and organize savestates for your SNES games. Also support the SNES Classic with a special mod for Hakchi2 CE"
+				],
+				"pattern": "^.*$"
+			},
+			"website": {
+				"$id": "#root/items/website", 
+				"title": "Website", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"https://skarsnik.github.io/Savestate2snes/"
+				],
+				"pattern": "^.*$"
+			},
+			"screenshot": {
+				"$id": "#root/items/screenshot", 
+				"title": "Screenshot", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"https://skarsnik.github.io/Savestate2snes/webimage/main.png"
+				],
+				"pattern": "^.*$"
+			},
+			"icon": {
+				"$id": "#root/items/icon", 
+				"title": "Icon", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"https://raw.githubusercontent.com/Skarsnik/Savestate2snes/master/Icon126x126.png"
+				],
+				"pattern": "^.*$"
+			},
+			"online": {
+				"$id": "#root/items/online", 
+				"title": "Online", 
+				"type": "boolean",
+				"examples": [
+					false
+				],
+				"default": true
+			},
+			"github-release": {
+				"$id": "#root/items/github-release", 
+				"title": "Github-release", 
+				"type": "boolean",
+				"examples": [
+					true
+				],
+				"default": true
+			},
+			"repository": {
+				"$id": "#root/items/repository", 
+				"title": "Repository", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"https://github.com/Skarsnik/Savestate2snes"
+				],
+				"pattern": "^.*$"
+			}
+		}
+	}
+
+}
