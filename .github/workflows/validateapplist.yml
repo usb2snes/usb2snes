@@ -1,4 +1,5 @@
 
+name: Validate app-lists.json
 
 on:
   push:
