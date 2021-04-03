@@ -9,7 +9,7 @@
         "icon" : "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/QFile2Snes/icon50x50.png",
         "online" : false,
         "github-release" : false,
-        "repository" : ""
+        "repository" : "https://github.com/Skarsnik/QUsb2snes/"
     },
     {
         "name" : "SaveState2Snes",
@@ -31,9 +31,7 @@
        "website" :  "http://www.multitroid.com",
        "screenshot" :  "todo.png",
        "icon" : "url to icon",
-       "online" :  true,
-       "github-release" : false,
-       "repository" : "none"
+       "online" :  true
     },
     {
         "name" : "PopTracker",
