@@ -1,8 +1,12 @@
 
 
-on: [push, pull_request]
-  paths:
-    - "./docs/applications/list-apps.json"
+on:
+  push:
+    paths:
+      - "./docs/applications/list-apps.json"
+  pull_request:
+    paths:
+      - "./docs/applications/list-apps.json"
 jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
