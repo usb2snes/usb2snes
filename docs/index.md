@@ -86,32 +86,7 @@ There is also a [connection tester page](tester/index.html) that can help with v
 
 # Applications
 
-## Multitroid
-Multitroid is a mod for Super Metroid that allows multiple players to complete the game cooperative, they can share energy, ammo, items, equipment, events and map across different platforms
-
-See [Multitroid.com](http://www.multitroid.com/) for more information	
-
-## Savestate2snes
-[Savestate2snes](https://skarsnik.github.io/Savestate2snes/) is a tool that let you create and manage savestates on your SNES console with a SD2SNES.
-It also support ‘hacked’ SNES classic with hakchi2 CE  
-
-## QFile2Snes
-
-Provided with [QUsb2Snes](https://skarsnik.github.io/QUsb2snes/), QFile2Snes is a software to mainly access your files on your SD2SNES, It's a more 'modern' replacement for the Fileviewer provided with the original `USB2SNES`. It support Drag and Drop for example.
-
-## Fileviewer (legacy)
-Included with [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases)
-
-This application allows you access your SD2SNES files and perform some special operation, like starting a game, applying a patch.
-
-## MemoryView
-Included with [USB2SNES](https://github.com/RedGuyyyy/sd2snes/releases)
-
-This application allow you to have a look at various memory of your SNES and overwrite value if you want.
-
-## InputViewer
-Included with the bundle, it's a patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press.
-It has some limitations like not showing input during screen transition and such.
+You can find a list of applications that use the usb2snes protocol at the [Application page](applications)
 
 # Developers
 
