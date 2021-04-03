@@ -44,6 +44,41 @@
         "online" : false ,
         "github-release" : true,
         "repository" : "https://github.com/black-sliver/PopTracker"
+    },
+    {
+        "name" : "MemoryViewer",
+        "author" : "Redguyyyy",
+        "short-description" : "A software to see/write various memories of your SD2Snes.",
+        "description" : "A software to see/write various memories of your SD2Snes.",
+        "website" : "https://github.com/RedGuyyyy/sd2snes/releases",
+        "screenshot" : "",
+        "icon" : "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/legacy.png",
+        "online" : false,
+        "github-release" : false,
+        "repository" : "https://github.com/RedGuyyyy/usb2snesw"
+    },
+    {
+        "name" : "Fileviewer (legacy)",
+        "author" : "Redguyyyy",
+        "short-description" : "A software to explore and interact with your sd2snes/fxpak pro files",
+        "description" : "This application allows you access your SD2SNES files and perform some special operation, like starting a game, applying a patch.",
+        "website" : "https://github.com/RedGuyyyy/sd2snes/releases",
+        "screenshot" : "",
+        "icon" : "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/legacy.png",
+        "online" : false,
+        "github-release" : false,
+        "repository" : "https://github.com/RedGuyyyy/usb2snesw"
+    },
+    {
+        "name" : "InputViewer (legacy)",
+        "author" : "Redguyyyy",
+        "short-description" : "A software to display your controller input.",
+        "description" : "It's a patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press. It has some limitations like not showing input during screen transition and such.",
+        "website" : "https://github.com/RedGuyyyy/sd2snes/releases",
+        "screenshot" : "",
+        "icon" : "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/legacy.png",
+        "online" : false,
+        "github-release" : false,
+        "repository" : "https://github.com/RedGuyyyy/usb2snesw"
     }
-  
 ]
