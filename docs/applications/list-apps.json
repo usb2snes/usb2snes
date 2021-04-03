@@ -1,5 +1,17 @@
 [
     {
+        "name" : "QFile2Snes",
+        "author" : "Skarsnik",
+        "short-description" : "A software to explore and interact with your sd2snes/fxpak pro files",
+        "description" : "Provided with QUsb2Snes. A software to explore your sd2snes/fxpak pro files. It allows you to upload/download file to the sd card. Also support drag and drop from your operating system file explorer.",
+        "website" : "https://github.com/Skarsnik/QUsb2snes/tree/master/QFile2Snes",
+        "screenshot" : "",
+        "icon" : "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/QFile2Snes/icon50x50.png",
+        "online" : false,
+        "github-release" : false,
+        "repository" : ""
+    },
+    {
         "name" : "SaveState2Snes",
         "author" : "Skarsnik",
         "short-description" : "A software to handle your savestates on Sd2snes/Fxpak (pro) and Snes Classic",
@@ -19,7 +31,7 @@
        "website" :  "http://www.multitroid.com",
        "screenshot" :  "todo.png",
        "icon" : "url to icon",
-       "online" :  "true",
+       "online" :  true,
        "github-release" : false,
        "repository" : "none"
     },
@@ -35,4 +47,5 @@
         "github-release" : true,
         "repository" : "https://github.com/black-sliver/PopTracker"
     }
+  
 ]
