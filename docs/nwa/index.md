@@ -1,6 +1,6 @@
 # Emulator Network Access : NWA
 
-![Mr. Chip](emunw-orig.svg | width=100)
+<img src="./emunw-orig.svg" width=100 align=center>
 
 ## Overview
 
