@@ -13,9 +13,11 @@ for SNES games, it was designed without a particular plateform in mind.
 
 ## Existing emulator
 
-- Snes9x-nwa : (https://github.com/Skarsnik/snes9x-emunwa/releases)
-- Bizhawk via an external tool : (https://github.com/Skarsnik/Bizhawk-nwa-tool/releases)
+- Snes9x-nwa: [github.com/Skarsnik/snes9x-emunwa](https://github.com/Skarsnik/snes9x-emunwa/releases)
+- Bizhawk via an external tool: [github.com/Skarsnik/Bizhawk-nwa-tool](https://github.com/Skarsnik/Bizhawk-nwa-tool/releases)
+- bsnes-plus nwa fork: [github.com/black-sliver/bsnes-plus](https://github.com/black-sliver/bsnes-plus/releases)
 
 ## Compatible application
 
-- QUsb2Snes : (https://skarsnik.github.io/QUsb2snes/)
+- QUsb2Snes: [skarsnik.github.io/QUsb2snes](https://skarsnik.github.io/QUsb2snes/)
+- SNI: [github.com/alttpo/sni](https://github.com/alttpo/sni/releases)
