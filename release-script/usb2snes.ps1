@@ -14,7 +14,7 @@ iex @'
 '@
 
 
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/legacy.png" -OutFile "legacy.png"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/ui/icons/legacy.png" -OutFile "legacy.png"
 
 mkdir -Path .\QUsb2Snes\FIRMWARE
 Copy-Item usb2snes_v11/sd2snes/ -Destination .\QUsb2Snes\FIRMWARE -Recurse
