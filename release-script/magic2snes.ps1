@@ -1,7 +1,7 @@
 . ./../release-script/common.ps1
 
 $github_base_url = "https://github.com/Skarsnik/Magic2Snes/releases/download/"
-$release = "beta3"
+$release = "beta4"
 $url = "$github_base_url/$release/Magic2Snes-$release.7z"
 
 [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
@@ -14,4 +14,5 @@ iex @'
 
 cd ..\
 # Need to remove this on next magic2snes release I guess
-del QUsb2Snes\Magic2Snes\vc_redist.x64.exe
+#del QUsb2Snes\Magic2Snes\vc_redist.x64.exe
+

@@ -27,7 +27,7 @@ Copy-Item usb2snes_v11/readme.txt -Destination .\QUsb2Snes\FIRMWARE\
 
 Copy-Item usb2snes_v11\apps\MemoryViewer -Destination .\QUsb2Snes\apps\MemoryViewer -Recurse
 
-Copy-Item usb2snes_v7\apps\ZeldaHUD -Destination .\QUsb2Snes\apps\ZeldaHUD -Recurse
+#Copy-Item usb2snes_v7\apps\ZeldaHUD -Destination .\QUsb2Snes\apps\ZeldaHUD -Recurse
 
 
 Copy-Item legacy.png .\QUsb2Snes\apps\MemoryViewer\icone.png

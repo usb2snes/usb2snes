@@ -1,8 +1,8 @@
 . ./../release-script/common.ps1
 
 $github_base_url = "https://github.com/Skarsnik/Button-Mash/releases/download/"
-$release = "beta4"
-$url = "$github_base_url/$release/Button-Mash-$release.7z"
+$release = "beta13"
+$url = "$github_base_url/$release/ButtonMash-$release.7z"
 
 [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
 Invoke-WebRequest -Uri $url -OutFile "ButtonMash.7z"
@@ -20,6 +20,6 @@ iex @'
 
 cd ..\..\
 
-copy bmicone.png QUsb2Snes\apps\Button-Mash\icone.png
-copy bm.json QUsb2Snes\apps\Button-Mash\qusb2snesapp.json
+copy bmicone.png QUsb2Snes\apps\ButtonMash\icone.png
+copy bm.json QUsb2Snes\apps\ButtonMash\qusb2snesapp.json
 
