@@ -29,9 +29,19 @@
        "short-description" : "Play Super Metroid co-op with all your friends",
        "description" : "Play Super Metroid co-op across internet and share energy, ammo, equipment, map tiles and events (such as bosses and flags)",
        "website" :  "http://www.multitroid.com",
-       "screenshot" :  "todo.png",
+       "screenshot" :  "",
        "icon" : "url to icon",
        "online" :  true
+    },
+    {
+        "name"  : "FUNtoon",
+        "author" : "Taw",
+        "short-description" : "FUNtoon for all you Super Metroid need",
+        "description" : "A multipurpose tool to improve you Super Metroid streaming experience and more. Crafted for her pleasure.",
+        "website" :  "https://funtoon.party/",
+        "screenshot" :  "",
+        "icon" : "https://funtoon.party/img/funtoon_icon.777cea1f.svg",
+        "online" :  true
     },
     {
         "name" : "PopTracker",
@@ -52,7 +62,7 @@
         "description" : "A software to see/write various memories of your SD2Snes.",
         "website" : "https://github.com/RedGuyyyy/sd2snes/releases",
         "screenshot" : "",
-        "icon" : "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/legacy.png",
+        "icon" : "https://github.com/Skarsnik/QUsb2snes/raw/master/ui/icons/legacy.png",
         "online" : false,
         "github-release" : false,
         "repository" : "https://github.com/RedGuyyyy/usb2snesw"
@@ -64,7 +74,7 @@
         "description" : "This application allows you access your SD2SNES files and perform some special operation, like starting a game, applying a patch.",
         "website" : "https://github.com/RedGuyyyy/sd2snes/releases",
         "screenshot" : "",
-        "icon" : "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/legacy.png",
+        "icon" : "https://github.com/Skarsnik/QUsb2snes/raw/master/ui/icons/legacy.png",
         "online" : false,
         "github-release" : false,
         "repository" : "https://github.com/RedGuyyyy/usb2snesw"
@@ -76,7 +86,7 @@
         "description" : "It's a patched [NintendoSpy](https://github.com/jaburns/NintendoSpy) that use some memory value of your device to display the buttons your press. It has some limitations like not showing input during screen transition and such.",
         "website" : "https://github.com/RedGuyyyy/sd2snes/releases",
         "screenshot" : "",
-        "icon" : "https://raw.githubusercontent.com/Skarsnik/QUsb2snes/master/legacy.png",
+        "icon" : "https://github.com/Skarsnik/QUsb2snes/raw/master/ui/icons/legacy.png",
         "online" : false,
         "github-release" : false,
         "repository" : "https://github.com/RedGuyyyy/usb2snesw"
