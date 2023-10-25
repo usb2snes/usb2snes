@@ -56,6 +56,30 @@
         "repository" : "https://github.com/black-sliver/PopTracker"
     },
     {
+        "name" : "Button Mash",
+        "author" : "Skarsnik",
+        "short-description" : "Button Mash is an Input Display written mainly to display SNES controller input",
+        "description" : "Button Mash is an Input Display written mainly to display SNES controller input. It currently support SNES Classic hacked with Hakchi2 CE, Arduino based solution for real hardware (using Nintendo Spy firmware), Usb2Snes and regular controllers.",
+        "website" : "https://github.com/Skarsnik/Button-Mash/releases",
+        "screenshot" : "",
+        "icon" : "https://raw.githubusercontent.com/Skarsnik/Button-Mash/master/icone.png",
+        "online" : false,
+        "github-release" : true,
+        "repository" : "https://github.com/Skarsnik/Button-Mash"
+    },
+    {
+        "name" : "Usb2Snes LiveSplit compomnent",
+        "author" : "Total, Skarsnik and more",
+        "short-description" : "A compoment for LiveSplit that allow you to autosplit with the usb2snes protocol",
+        "description" : "A compoment for LiveSplit that allow you to autosplit with the usb2snes protocol",
+        "website" : "https://github.com/usb2snes/LiveSplit.USB2SNESSplitter/releases",
+        "screenshot" : "",
+        "icon" : "",
+        "online" : false,
+        "github-release" : true,
+        "repository" : "https://github.com/usb2snes/LiveSplit.USB2SNESSplitter/"
+    },
+    {
         "name" : "MemoryViewer",
         "author" : "Redguyyyy",
         "short-description" : "A software to see/write various memories of your SD2Snes.",
