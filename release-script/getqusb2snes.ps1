@@ -1,7 +1,7 @@
 . ./../release-script/common.ps1
 
 $qusb2snes_base_url = "https://github.com/Skarsnik/QUsb2snes/releases/download/"
-$qusb2snes_release = "0.7.25"
+$qusb2snes_release = "0.7.28"
 $url = "$qusb2snes_base_url/v$qusb2snes_release/QUsb2Snes-v$qusb2snes_release.7z"
 
 [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
