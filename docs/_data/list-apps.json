@@ -114,5 +114,17 @@
         "online" : false,
         "github-release" : false,
         "repository" : "https://github.com/RedGuyyyy/usb2snesw"
+    },
+    {
+        "name" : "SNES Control Panel",
+        "author" : "CheesyBoatRide",
+        "short-description" : "A centralized user interface for managing various USB2SNES services.",
+        "description" : "SNES Control Panel is a centralized user interface for managing various USB2SNES services, as well as a starting point for adding extra capabilities.",
+        "website" : "https://github.com/CheesyBoatRide/SNESPanel/releases",
+        "screenshot" : "https://github.com/CheesyBoatRide/SNESPanel/blob/main/screenshot.png",
+        "icon" : "https://github.com/CheesyBoatRide/SNESPanel/blob/main/docs/icon.png",
+        "online" : false,
+        "github-release" : true,
+        "repository" : "https://github.com/CheesyBoatRide/SNESPanel"
     }
 ]
