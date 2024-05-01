@@ -92,4 +92,4 @@ You can find a list of applications that use the usb2snes protocol at the [Appli
 
 If you don't plan on doing a complex application, you can look at the [Magic2Snes](https://github.com/Skarsnik/Magic2snes/wiki) project. It's a project written toward making small application easier by hiding all the Usb2Snes specific behind simple call like `memory.readByte()`
 
-If you want more details about the Usb2Snes websocket protocol you need too look at the [Protocol](https://github.com/Skarsnik/QUsb2snes/blob/master/docs/Procotol.md) page of the QUsb2Snes project.
+If you want more details about the Usb2Snes websocket protocol you need too look at the [Protocol](https://github.com/Skarsnik/QUsb2snes/blob/master/docs/Protocol.md) page of the QUsb2Snes project.
