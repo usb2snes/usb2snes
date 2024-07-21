@@ -68,7 +68,9 @@ For Mac os X users you will need to grab a QUsb2Snes dmg on [QUsb2Snes releases 
 
 ### Linux
 
-You will need to compile yourself see [QUsb2Snes Linux Readme](https://github.com/Skarsnik/QUsb2snes/blob/master/LinuxREADME.md)
+If you have a debian-based distribution (Ubuntu, Mint...) you can install it from [debian.nyo.fr](https://debian.nyo.fr), follow the webpage instructions
+
+For other distributions you will need to compile yourself see [QUsb2Snes Linux Readme](https://github.com/Skarsnik/QUsb2snes/blob/master/LinuxREADME.md)
 
 ## Installation
 
