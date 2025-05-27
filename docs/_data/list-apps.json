@@ -126,5 +126,17 @@
         "online" : false,
         "github-release" : true,
         "repository" : "https://github.com/CheesyBoatRide/SNESPanel"
+    },
+    {
+        "name" : "RA2Snes",
+        "author" : "Factor",
+        "short-description" : "Unlock RetroAchievements using SD2Snes",
+        "description" : "Unlock RetroAchievements on real Super Nintendo hardware via SD2Snes' USB Port",
+        "website" : "https://github.com/Factor-64/RA2Snes/releases",
+        "screenshot" : "https://github.com/Factor-64/RA2Snes/blob/master/screenshot.png",
+        "icon" : "https://raw.githubusercontent.com/Factor-64/RA2Snes/refs/heads/master/ui/images/icon64x64.png",
+        "online" : false,
+        "github-release" : true,
+        "repository" : "https://github.com/Factor-64/RA2Snes"
     }
 ]
