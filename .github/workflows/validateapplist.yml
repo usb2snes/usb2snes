@@ -12,4 +12,4 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: ./docs/applications/schema.json
-          INPUT_JSONS: ./docs/applications/list-apps.json
+          INPUT_JSONS: ./docs/_data/list-apps.json
