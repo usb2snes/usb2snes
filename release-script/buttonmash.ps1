@@ -10,7 +10,6 @@ Invoke-WebRequest -Uri $url -OutFile "ButtonMash.7z"
 Invoke-WebRequest -Uri "https://github.com/Skarsnik/Button-Mash/raw/master/icone.png" -OutFile "bmicone.png"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Skarsnik/Button-Mash/master/qusb2snesapp.json" -OutFile bm.json
 
-## TODO : When Qusb2snes switch to qt5.15 need to not copy everything
 
 cd .\QUsb2Snes\apps\
 

@@ -6,3 +6,4 @@ Get-ChildItem * -exclude *.ps1,*.json | Remove-Item -Force -Recurse
 .\..\release-script\magic2snes.ps1
 .\..\release-script\buttonmash.ps1
 .\..\release-script\poptracker.ps1
+.\..\release-script\ra2snes.ps1

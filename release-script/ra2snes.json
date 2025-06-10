@@ -1,0 +1,7 @@
+{
+    "name" : "RA2Snes",
+    "description" : "RetroAchievements support for real Snes",
+    "executable" : "RA2Snes",
+    "icon" : "icone.png",
+    "QtApp" : false
+}
