@@ -1,6 +1,6 @@
 . ./../release-script/common.ps1
 $github_base_url = "https://github.com/Factor-64/RA2Snes/releases/download/"
-$release_gh = "v1.1.1"
+$release_gh = "v1.1.2"
 
 #https://github.com/Factor-64/RA2Snes/releases/download/v1.1.1/RA2Snes-windows-x64.zip
 $url = [string]::Format('{0}{1}/RA2Snes-windows-x64.zip', $github_base_url, $release_gh)
